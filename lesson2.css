@@ -1,0 +1,782 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+}
+@font-face {
+  font-family: "Ogg";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/OggRegular.woff) format(woff);
+}
+@font-face {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Trade\ Gothic\ LT\ Extended.woff) format(woff);
+}
+.font-1 {
+  font-family: "TradeGothic LT Extended";
+}
+
+.font-2 {
+  font-family: "Ogg";
+}
+.mob {
+  display: none;
+}
+.background_section {
+  background-image: url(img/background_main.svg);
+  width: auto;
+  height: 920px;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+}
+nav:hover {
+  border-bottom: #ffffff solid 2px;
+  cursor: pointer;
+}
+.header_menu1 {
+  padding-left: 60px;
+}
+
+.header_menu2 {
+  margin-left: 284px;
+}
+
+.header_menu3 {
+  margin-left: 127px;
+}
+
+.header_menu4 {
+  margin-left: 53px;
+}
+
+.header_menu5 {
+  margin-left: 95px;
+}
+
+.header_menu6 {
+  margin-left: 317px;
+  margin-right: 60px;
+}
+
+.Sebastian_Mullaert {
+  font-family: "Quattrocento", serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 96px;
+  font-weight: normal;
+}
+
+.biography {
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin-top: 75px;
+  padding-left: 960px;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.Sebastian_Mullaert2 {
+  margin-top: 230px;
+  width: 100vw;
+  height: 24px;
+  left: -25px;
+  overflow: hidden;
+  position: relative;
+  text-transform: capitalize;
+}
+.simplicity_of_being {
+  color: #ffffff;
+  margin-top: 181px;
+  margin-left: 135px;
+  margin-right: 1107px;
+  font-size: 16px;
+}
+.image2 {
+  text-align: center;
+  margin-top: -155px;
+  position: relative;
+}
+
+.audio-visual-perfomancer {
+  margin-top: 100px;
+  margin-left: 1400px;
+  font-size: 16px;
+}
+
+.about {
+  position: relative;
+  margin-left: 420px;
+  top: 50px;
+}
+.text-color-green {
+  color: #71870e;
+}
+
+.musical_artist {
+  width: 1089px;
+  height: 128px;
+  font-size: 60px;
+  margin-left: 415px;
+  margin-top: 20px;
+  margin-right: 141px;
+  text-indent: 210px;
+  font-weight: normal;
+}
+.musical_artist_text {
+  position: relative;
+  width: 640px;
+  height: 224px;
+  margin-left: 640px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.music_artist_container {
+  position: relative;
+}
+
+.utterly_unique {
+  position: relative;
+  top: 50px;
+  margin-left: 450px;
+}
+.philosophy_container {
+  position: relative;
+  width: 50%;
+  margin-left: 103px;
+}
+.convergence_of::before {
+  position: relative;
+  content: "(Philosophy)";
+  font-family: "Montserrat";
+  font-size: 14px;
+  bottom: 30px;
+}
+.convergence_of {
+  position: relative;
+  font-family: "Ogg";
+  width: 614px;
+  height: 192px;
+  font-size: 60px;
+  line-height: 64px;
+  margin-top: 287px;
+  margin-left: 135px;
+}
+.the_majesty {
+  position: relative;
+  width: 396px;
+  height: 168px;
+  margin-top: 100px;
+  margin-left: 285px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.philosofy_images_container {
+  width: 50%;
+  position: relative;
+}
+.image3 {
+  width: 464px;
+  height: 634px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: scale(1);
+  margin-left: 900px;
+  margin-top: -560px;
+}
+.image4 {
+  position: absolute;
+  width: 260px;
+  height: 326px;
+  margin-left: 1250px;
+  bottom: 180px;
+}
+.based_on {
+  position: absolute;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 75px;
+  width: 211px;
+  height: 24px;
+  margin-left: 1050px;
+}
+.true_balance_in_itself_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 219px;
+}
+.as_a_human {
+  font-size: 96px;
+  width: 1077px;
+  height: 500px;
+  text-indent: 70px;
+}
+.as_a_human::before {
+  content: " (True balance in itself) ";
+  position: relative;
+  top: 2 px;
+  right: 50px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: normal;
+}
+.as_a_human_cont {
+  text-indent: 70px;
+}
+.line {
+  margin-left: 170px;
+}
+.read_more {
+  margin-left: 275px;
+  color: #cd9a3d;
+  margin-top: -16px;
+}
+.send_an_email {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 200px;
+}
+.send_an_email::before {
+  content: "(Booking)";
+  position: relative;
+  font-family: "TradeGothic LT Extended";
+  font-size: 16px;
+  top: -32px;
+  right: 111px;
+  opacity: 0.55;
+}
+.send_email_disc {
+  font-size: 16px;
+  margin-left: 975px;
+  margin-top: 100px;
+  margin-right: 475px;
+  color: #71870e;
+}
+.forms_email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 185px;
+  margin-top: 100px;
+}
+.email_form_button {
+  font-family: "TradeGothic LT Extended";
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  background: none;
+  color: #d0a049;
+  cursor: pointer;
+  margin-left: 50px;
+  padding-bottom: 100px;
+}
+.form_input {
+  border: none;
+  border-bottom: black solid 1px;
+  opacity: 0.55;
+  width: 700px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+select {
+  width: 700px;
+  border: none;
+  border-bottom: black solid 1px;
+  font-family: "Ogg";
+  color: #c4c4c4;
+  opacity: 0.7;
+  font-size: 16px;
+}
+select::after {
+  content: url(img/select.svg);
+  color: black;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  font-size: 16px;
+}
+option {
+  color: #c4c4c4;
+  opacity: 0.7;
+}
+::placeholder {
+  font-family: "Ogg";
+  color: #c4c4c4;
+  font-size: 16px;
+}
+.checkbox {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-indent: 30px;
+  margin-top: 50px;
+  margin-left: -200px;
+}
+.form_input :hover {
+  border: none;
+}
+.line_email_form {
+  margin-top: 80px;
+  margin-left: 174px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .audio-visual-perfomancer {
+    margin-left: 1309px;
+  }
+  .image3 {
+    margin-left: 784px;
+  }
+  .image4 {
+    margin-left: 1135px;
+  }
+  .Sebastian_Mullaert2 {
+    width: 2024px;
+  }
+  .header_menu2 {
+    margin-left: 150px;
+  }
+  .header_menu6 {
+    margin-left: 127px;
+  }
+  .simplicity_of_being {
+    margin-right: 0;
+  }
+  .biography {
+    padding-left: 800px;
+  }
+  .audio-visual-perfomancer {
+    margin-left: 1170px;
+  }
+  .musical_artist_text {
+    position: relative;
+    width: 640px;
+    height: 224px;
+    margin-left: 630px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .music_artist_container {
+    position: relative;
+    margin-left: -240px;
+  }
+  .philosophy_container {
+    margin-left: -60px;
+  }
+  .send_email_disc {
+    margin-left: 826px;
+
+    margin-right: 185px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .audio-visual-perfomancer {
+    margin-left: 915px;
+  }
+
+  .musical_artist_text {
+    margin-left: 351px;
+  }
+  .music_artist_container {
+    position: relative;
+    margin-left: -157px;
+  }
+  .musical_artist {
+    margin-left: 172px;
+  }
+  .about {
+    margin-left: 180px;
+  }
+  .audio-visual-perfomancer {
+    margin-left: 742px;
+  }
+  .philosophy_container {
+    position: relative;
+    width: 50%;
+    margin-left: -60px;
+  }
+  .image3 {
+    margin-left: 655px;
+    width: 355px;
+    height: 497px;
+  }
+  .image4 {
+    margin-left: 875px;
+    width: 193px;
+    top: -370px;
+  }
+
+  .the_majesty {
+    margin-left: 203px;
+  }
+  .based_on {
+    margin-top: 26px;
+    margin-left: 755px;
+  }
+  .send_email_disc {
+    margin-left: 575px;
+    margin-right: 10px;
+  }
+  .send_email_top {
+    margin-left: -100px;
+  }
+  select {
+    width: 500px;
+  }
+  .form_input {
+    width: 500px;
+  }
+  .checkbox {
+    margin-left: -10px;
+  }
+  .forms_email {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mob {
+    display: none;
+  }
+  .header_menu2 {
+    margin-left: 88px;
+  }
+  .header_menu3 {
+    margin-left: 56px;
+  }
+  .header_menu5 {
+    margin-left: 44px;
+  }
+  .header_menu6 {
+    margin-left: 49px;
+  }
+  .Sebastian_Mullaert {
+    font-size: 86px;
+  }
+  .biography {
+    padding-left: 597px;
+  }
+  .audio-visual-perfomancer {
+    margin-left: 506px;
+  }
+  .musical_artist {
+    width: auto;
+    height: auto;
+    text-indent: 50px;
+    font-size: 46px;
+    margin-right: 0;
+    margin-left: 213px;
+  }
+  .musical_artist_text {
+    margin-left: 240px;
+  }
+  .convergence_of {
+    font-size: 54px;
+    line-height: 48px;
+    margin-top: 287px;
+    margin-left: 87px;
+    width: 580px;
+  }
+  .the_majesty {
+    margin-left: 99px;
+    margin-top: -37px;
+  }
+  .image3 {
+    margin-left: 491px;
+    width: 374px;
+    height: 332px;
+  }
+  .image4 {
+    margin-left: 707px;
+    width: 117px;
+    top: -289px;
+  }
+  .based_on {
+    margin-left: 586px;
+  }
+  .send_an_email::before {
+    right: 60px;
+  }
+  .send_email_top {
+    margin-left: -100px;
+    margin-top: 300px;
+  }
+  .send_email_disc {
+    margin-left: 300px;
+    margin-right: 10px;
+    margin-top: 50px;
+  }
+  .form_input {
+    width: 500px;
+  }
+  .forms_email {
+    margin-left: 20px;
+  }
+  select {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .web {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .header {
+    display: none;
+  }
+  .simplicity_of_being {
+    margin-top: 0;
+    margin-left: 237px;
+  }
+  .Sebastian_Mullaert {
+    text-align: center;
+    margin-top: 200px;
+  }
+  .musical_artist {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    margin-left: 182px;
+    margin-top: -97px;
+    margin-right: 0;
+    text-indent: 0;
+    font-weight: normal;
+  }
+  .musical_artist_text {
+    margin-left: 177px;
+
+    width: auto;
+    height: auto;
+  }
+  .image2 {
+    margin-left: -90px;
+    margin-top: -155px;
+  }
+  .convergence_of::before {
+    display: none;
+  }
+  .philosophy_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .convergence_of {
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 70px;
+    width: auto;
+    height: auto;
+  }
+  .the_majesty {
+    margin-top: -65px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .image3 {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 676px;
+    transform: scale(1);
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .image4 {
+    position: none;
+    width: 365px;
+    height: 391px;
+    left: 131px;
+    top: 1185px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .based_on {
+    display: none;
+  }
+  .read_more {
+    margin-top: -5px;
+    margin-left: 143px;
+  }
+  .line {
+    margin-top: -18px;
+    margin-left: -68px;
+  }
+  .send_email_disc {
+    margin-left: 40px;
+  }
+  select {
+    width: 380px;
+  }
+  .form_input {
+    width: 380px;
+  }
+  .checkbox {
+    text-indent: 0px;
+  }
+  .line_email_form {
+    margin-top: 80px;
+    margin-left: 85px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .web {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .musical_artist {
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: -87px;
+    margin-right: 0;
+    text-indent: 0;
+    font-weight: normal;
+  }
+  .musical_artist_text {
+    margin-left: 180px;
+    width: auto;
+    height: auto;
+  }
+  .image2 {
+    margin-left: -130px;
+  }
+  .convergence_of::before {
+    display: none;
+  }
+  .philosophy_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .convergence_of {
+    margin-top: 0;
+    margin-left: 15px;
+    padding: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 70px;
+    width: auto;
+    height: auto;
+  }
+  .the_majesty {
+    margin-top: -65px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .image3 {
+    width: 375px;
+    height: 600px;
+    transform: scale(1);
+
+    margin-top: 30px;
+  }
+  .image4 {
+    width: 318px;
+    height: 333px;
+    margin-left: -13px;
+    margin-top: -46px;
+  }
+  .based_on {
+    display: none;
+  }
+  .read_more {
+    margin-top: -6px;
+    margin-left: 205px;
+  }
+  .line {
+    margin-top: -632px;
+    margin-left: -68px;
+  }
+
+  .send_email_top {
+    margin-left: -100px;
+    margin-top: 715px;
+    font-size: 56px;
+  }
+  select {
+    width: 300px;
+  }
+  .form_input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .web {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .send_email_top {
+    margin-left: -100px;
+    margin-top: 715px;
+    font-size: 50px;
+  }
+  select {
+    width: 280px;
+  }
+  .form_input {
+    width: 280px;
+  }
+  .line_email_form {
+    margin-top: 80px;
+    margin-left: 35px;
+  }
+  .simplicity_of_being {
+    margin-top: 0;
+    margin-left: 60px;
+  }
+  .Sebastian_Mullaert {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 72px;
+  }
+}
