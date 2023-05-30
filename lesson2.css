@@ -570,7 +570,8 @@ option {
   }
   .image2 {
     margin-left: -90px;
-    margin-top: -155px;
+    margin-top: 95px;
+    width: auto;
   }
   .convergence_of::before {
     display: none;
