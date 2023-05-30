@@ -534,7 +534,7 @@ option {
     width: 500px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 428px) {
   .web {
     display: none;
   }
