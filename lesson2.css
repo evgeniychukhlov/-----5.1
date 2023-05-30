@@ -8,13 +8,13 @@ body {
   font-family: "Ogg";
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/OggRegular.woff) format(woff);
+  src: url(fonts/OggRegular.woff) format(woff);
 }
 @font-face {
   font-family: "TradeGothic LT Extended";
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/Trade\ Gothic\ LT\ Extended.woff) format(woff);
+  src: url(fonts/Trade\ Gothic\ LT\ Extended.woff) format(woff);
 }
 .font-1 {
   font-family: "TradeGothic LT Extended";
