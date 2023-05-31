@@ -552,6 +552,10 @@ option {
     text-align: center;
     margin-top: 200px;
   }
+  .biography {
+    padding: 0;
+    margin-left: 250px;
+  }
   .musical_artist {
     width: auto;
     height: auto;
@@ -569,9 +573,10 @@ option {
     height: auto;
   }
   .image2 {
-    margin-left: -90px;
-    margin-top: 95px;
+    margin-left: 0px;
+    margin-top: 230px;
     width: auto;
+    max-width: 428px;
   }
   .convergence_of::before {
     display: none;
@@ -617,9 +622,9 @@ option {
   }
   .image4 {
     position: none;
-    width: 365px;
-    height: 391px;
-    left: 131px;
+    width: 268px;
+    height: 333px;
+    left: 159px;
     top: 1185px;
     margin-left: 0;
     margin-top: 0;
